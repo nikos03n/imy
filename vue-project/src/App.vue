@@ -5,7 +5,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="https://polygraphist.kiev.ua/images/thumbnails/600/600/detailed/8483/1250_21627_3164_0.jpg" width="300" height="300" />
+    <img alt="Vue logo" class="logo" src="https://polygraphist.kiev.ua/images/thumbnails/600/600/detailed/8483/1250_21627_3164_0.jpg" width="200" height="200" />
 
     <div class="wrapper">
       <HelloWorld msg="Персоналізація тиснення!" />
