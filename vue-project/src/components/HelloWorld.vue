@@ -9,8 +9,8 @@ defineProps<{
     <h1 class="green">{{ msg }}</h1>
     <h3>
       Хочете зробити Ваш блокнот  ще більш особливим, підкреслити свою індивідуальність або фірмовий стиль, зробити персональний або корпоративний подарунок?
-      <a href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/zapisn-knizhki/" target="_blank" rel="noopener">Виробництво</a> +
-      <a href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/zapisn-knizhki/" target="_blank" rel="noopener">Виробництво</a>. What's next?
+      <a href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/zapisn-knizhki/" target="_blank" rel="noopener">Виробництво тут</a> +
+      <a href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/zapisn-knizhki/" target="_blank" rel="noopener">Виробництво тут</a>. What's next?
     </h3>
   </div>
 </template>
