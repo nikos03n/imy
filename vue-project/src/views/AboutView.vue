@@ -4,7 +4,7 @@
 
     <WelcomeItem>
       <h3>Перед початком робіт необхідно 100% предоплати та затвердети макет </h3>
-    <img alt="Vue logo" class="logo" src="https://polygraphist.kiev.ua/images/thumbnails/600/600/detailed/8483/1250_21627_3164_0.jpg" width="500" height="500" />
+    <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="500" height="500" />
 
     <template #heading>№1</template>
 
