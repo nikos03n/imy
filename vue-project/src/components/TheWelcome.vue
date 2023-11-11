@@ -46,7 +46,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #heading>№4</template>
 
     <a href="https://v.org/" target="_blank" rel="noopener"></a>
-    для оформлення замовлення необхідно заповнити коротку форму <a href="https://onedrive.live.com/edit.aspx?resid=534247FB5DE9C65A!6079&ithint=file%2cxlsx&wdo=2&authkey=!AGJb2DYKPTKXM-4" target="_blank" rel="noopener">Excel</a> та відправити її за адресою 
+    для оформлення замовлення необхідно заповнити коротку форму <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a> та відправити її за адресою 
        tamazenko@polygraphist.kiev.ua
 
   </WelcomeItem>
