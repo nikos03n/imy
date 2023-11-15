@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprinter.jpg?alt=media&token=1d02f3f8-d233-4c91-8c21-fea2ec8063a8" width="400" height="400" />
 
     <div class="wrapper">
-      <HelloWorld msg="Персоналізація тиснення фольгою" />
+      <HelloWorld msg="1Персоналізація тиснення фольгою" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
