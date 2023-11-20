@@ -1,4 +1,168 @@
 <template>
+  <v-container2 class="bg-surface-variant">
+    <v-row
+      class="mb-6"
+      no-gutters
+    >
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+    </v-row>
+
+    <v-row no-gutters>
+      <v-col cols="8">
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+
+      <v-col cols="4">
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+    </v-row>
+  </v-container2>
   <v-container class="fill-height">
     <v-responsive class="align-center text-center fill-height">
       <v-img height="300" src="@/assets/logo.svg" />
@@ -6,7 +170,6 @@
       <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
 
       <h1 class="text-h2 font-weight-bold">Vuetify</h1>
-
       <div class="py-14" />
 
       <v-row class="d-flex align-center justify-center">
