@@ -5,8 +5,7 @@
       no-gutters
     >
       <v-col>
-        <v-sheet class="pa-2 ma-2">
-                  <template1>
+        <v-sheet class="pa-5 ma-5">
         <v-card
           class="mx-auto"
           max-width="344"
@@ -25,14 +24,65 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </v-card-text>
         </v-card>
-      </template1>
+
+        </v-sheet>
+      </v-col>
+
+      
+
+      <v-col>
+        <v-sheet class="pa-2 ma-2">
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+            <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+
+        </v-sheet>
+      </v-col>
+
+      <v-col>
+        <v-sheet class="pa-10 ma-10">
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
 
         </v-sheet>
       </v-col>
 
       <v-col>
         <v-sheet class="pa-2 ma-2">
-                  <template1>
         <v-card
           class="mx-auto"
           max-width="344"
@@ -48,62 +98,11 @@
           </v-card-item>
 
           <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
+
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </v-card-text>
         </v-card>
-      </template1>
-
-        </v-sheet>
-      </v-col>
-
-      <v-col>
-        <v-sheet class="pa-2 ma-2">
-                  <template1>
-        <v-card
-          class="mx-auto"
-          max-width="344"
-          hover
-        >
-          <v-card-item>
-            <v-card-title>
-              Card title
-            </v-card-title>
-            <v-card-subtitle>
-              Card subtitle secondary text
-            </v-card-subtitle>
-          </v-card-item>
-
-          <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </v-card-text>
-        </v-card>
-      </template1>
-
-        </v-sheet>
-      </v-col>
-
-      <v-col>
-        <v-sheet class="pa-2 ma-2">
-                  <template1>
-        <v-card
-          class="mx-auto"
-          max-width="344"
-          hover
-        >
-          <v-card-item>
-            <v-card-title>
-              Card title
-            </v-card-title>
-            <v-card-subtitle>
-              Card subtitle secondary text
-            </v-card-subtitle>
-          </v-card-item>
-
-          <v-card-text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </v-card-text>
-        </v-card>
-      </template1>
 
         </v-sheet>
       </v-col>
@@ -154,6 +153,7 @@
           </v-card-item>
 
           <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </v-card-text>
         </v-card>
@@ -161,6 +161,33 @@
 
         </v-sheet>
       </v-col>
+            <v-col cols="4">
+        <v-sheet class="pa-2 ma-2">
+                  <template1>
+        <v-card
+          class="mx-auto"
+          max-width="344"
+          hover
+        >
+          <v-card-item>
+            <v-card-title>
+              Card title
+            </v-card-title>
+            <v-card-subtitle>
+              Card subtitle secondary text
+            </v-card-subtitle>
+          </v-card-item>
+
+          <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text>
+        </v-card>
+      </template1>
+
+        </v-sheet>
+      </v-col>
+
     </v-row>
   </v-container2>
   <v-container class="fill-height">
