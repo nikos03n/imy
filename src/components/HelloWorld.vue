@@ -28,7 +28,7 @@
         </v-sheet>
       </v-col>
 
-      
+
 
       <v-col>
         <v-sheet class="pa-2 ma-2">
@@ -169,7 +169,7 @@
           max-width="344"
           hover
         >
-          <v-card-item>
+          <v-card-item>https://www.ukr.net/
             <v-card-title>
               Card title
             </v-card-title>
