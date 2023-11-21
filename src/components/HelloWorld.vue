@@ -59,10 +59,17 @@
                 </template>
 
                 <v-card
-                  title="Для тиснення вам необхідно узгодити форму та сробити передонлату 100%"
-                  text="Для оформлення замовлення необхідно заповнити коротку форму/макет"
-                  href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener"
-                > <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a> та відправити її за адресою <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a> для узгодження<img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" /></v-card>
+                  title="Для тиснення вам необхідно узгодити форму та зробити передонлату 100%"
+                  text=""
+                >
+                <v-card-text>
+                  Для оформлення замовлення необхідно заповнити коротку форму/макет
+                 <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a> та відправити її за адресою <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a>
+
+                 </v-card-text>
+                  <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
+
+                </v-card>
               </v-bottom-sheet>
             </v-container>
 
