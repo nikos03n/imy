@@ -4,7 +4,10 @@
       class="mb-6"
       no-gutters
     >
+
+
       <v-col>
+
         <v-sheet class="pa-5 ma-5">
         <v-card
           class="mx-auto"
@@ -46,6 +49,20 @@
             </v-card-subtitle>
           </v-card-item>
 
+             <v-container>
+              <v-bottom-sheet>
+                <template v-slot:activator="{ props }">
+                  <v-btn v-bind="props" text="Click Me"></v-btn>
+                </template>
+
+                <v-card
+                  title="Bottom Sheet"
+                  text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eos? Nulla aspernatur odio rem, culpa voluptatibus eius debitis dolorem perspiciatis asperiores sed consectetur praesentium! Delectus et iure maxime eaque exercitationem!"
+                ></v-card>
+              </v-bottom-sheet>
+            </v-container>
+
+
           <v-card-text>
             <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -73,6 +90,19 @@
 
           <v-card-text>
                         <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
+                                 <v-container>
+              <v-bottom-sheet>
+                <template v-slot:activator="{ props }">
+                  <v-btn v-bind="props" text="Click Me"></v-btn>
+                </template>
+
+                <v-card
+                  title="Bottom Sheet"
+                  text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eos? Nulla aspernatur odio rem, culpa voluptatibus eius debitis dolorem perspiciatis asperiores sed consectetur praesentium! Delectus et iure maxime eaque exercitationem!"
+                ></v-card>
+              </v-bottom-sheet>
+            </v-container>
+
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </v-card-text>
