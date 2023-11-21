@@ -42,30 +42,31 @@
         >
           <v-card-item>
             <v-card-title>
-              Card title
+              Щоденник недатований А5, 128 аркушів, клітинка, обкладинка баладек зелений
             </v-card-title>
             <v-card-subtitle>
-              Card subtitle secondary text
+              Артикул: 231 0540
             </v-card-subtitle>
           </v-card-item>
 
-             <v-container>
+          <v-card-text>
+            <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
+
+            <v-container align-content-center>
               <v-bottom-sheet>
                 <template v-slot:activator="{ props }">
-                  <v-btn v-bind="props" text="Click Me"></v-btn>
+                  <v-btn v-bind="props" text="Замовити цей виріб"></v-btn>
                 </template>
 
                 <v-card
-                  title="Bottom Sheet"
-                  text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eos? Nulla aspernatur odio rem, culpa voluptatibus eius debitis dolorem perspiciatis asperiores sed consectetur praesentium! Delectus et iure maxime eaque exercitationem!"
-                ></v-card>
+                  title="Для тиснення вам необхідно узгодити форму та сробити передонлату 100%"
+                  text="Для оформлення замовлення необхідно заповнити коротку форму/макет"
+                  href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener"
+                > <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a> та відправити її за адресою <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a> для узгодження<img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" /></v-card>
               </v-bottom-sheet>
             </v-container>
 
-
-          <v-card-text>
-            <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 256. Блок білий офсет 70г/м2, клітинка. Колір капталу та лясе - білий. Мова укр., англ. Форзац - без друку білий. Обкладинка баладек.
           </v-card-text>
         </v-card>
 
