@@ -70,19 +70,17 @@
                   <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a> -->
                  </v-card-text>
                  <v-card-text>
-                2. можливе “сліпе” тиснення, а також золотим, срібним та білим кольором
+                2. тиснення можливе безбарвне, а також золотим, червоним, срібним та білим кольором
                  </v-card-text>
                                   <v-card-text>
                 3. допустима кількість символів в 1 рядку залежить від обраного формату блокнота
                  </v-card-text>
                                   <v-card-text>
-                4. вартість тиснення від 100 грн
+                4. вартість тиснення від 100 грн + ціна блокнота
                  </v-card-text>
                                                    <v-card-text>
-                4. робота виконується лише після 100% оплати замовлення
+                5. робота виконується лише після 100% оплати замовлення
                  </v-card-text>
-
-
 
 
                   <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
