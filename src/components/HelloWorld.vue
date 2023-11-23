@@ -105,14 +105,13 @@
         >
           <v-card-item>
             <v-card-title>
-              Card title
+              Щоденник недатований А5, 176 аркушів, лінія, обкладинка штучна шкіра, чорний
             </v-card-title>
             <v-card-subtitle>
-              Card subtitle secondary text
-            </v-card-subtitle>
+              Артикул: 241 2110            </v-card-subtitle>
           </v-card-item>
 
-          <v-card-text>
+          <!-- <v-card-text>
                         <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
                                  <v-container>
               <v-bottom-sheet>
@@ -129,8 +128,75 @@
 
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </v-card-text>
+          </v-card-text> -->
+          <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://polygraphist.kiev.ua/images/detailed/8482/2110_5210_s_b_1964_0.jpg" width="300" height="300" />
+
+            Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 352. Блок білий офсет 70г/м2. Колір капталу та лясе - білий. Мова укр., англ. Форзац - кольорові мапи України, Європи. Матеріал обкладинки штучна шкіра. Інформаційний блок містить:-Валюти країн світу-Позначення країн та територій в Інтернеті-Правила догляду за одягом та знаки на етикетці-Розміри одягу та взуття-Одиниці для вимірювання фізичних величин-Офіційні правила тлумачення торгівельних термінів міжнародної торгової палати Інкотермс 2020-Автомобільні коди країни-Часові пояси-Відстані між європейськими містами та між обласними центрами України-Довідкові телефони-Телефонні коди міст України-Міжнародні телефонні коди-Міжнародні штрихові коди.
+      </v-card-text>
+
+
         </v-card>
+          <v-row justify="center">
+            <v-dialog
+              v-model="dialog"
+              width="800"
+            >
+              <template v-slot:activator="{ props }">
+                <v-btn
+                  color="primary"
+                  v-bind="props"
+                >
+                  Замовити цей виріб
+                </v-btn>
+              </template>
+              <v-card>
+                <v-card-title>
+                  <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
+                </v-card-title>
+                <v-card-text>
+                1. заповнити макет
+                 <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a>
+                 та відправити за адресою
+                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a>
+                 </v-card-text>
+                 <v-card-text>
+                2. тиснення можливе безбарвне, а також золотим, червоним, срібним та білим кольором
+                 </v-card-text>
+                                  <v-card-text>
+                3. допустима кількість символів в 1 рядку залежить від обраного формату блокнота
+                 </v-card-text>
+                                  <v-card-text>
+                4. вартість тиснення від 100 грн + ціна блокнота
+                 </v-card-text>
+                                                   <v-card-text>
+                5. робота виконується лише після 100% оплати замовлення
+                </v-card-text>
+                <v-card-text>
+                                   <img alt="Vue logo" class="logo" src="https://polygraphist.kiev.ua/images/detailed/8482/2110_5210_s_b_1964_0.jpg" width="400" height="400" />
+
+                </v-card-text>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                  <v-btn
+                    color="green-darken-1"
+                    variant="text"
+                    @click="dialog = false"
+                  >
+                    Disagree
+                  </v-btn>
+                  <v-btn
+                    color="green-darken-1"
+                    variant="text"
+                    @click="dialog = false"
+                  >
+                    Agree
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-dialog>
+          </v-row>
 
         </v-sheet>
       </v-col>
@@ -151,11 +217,6 @@
             </v-card-subtitle>
           </v-card-item>
 
-          <v-card-text>
-                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </v-card-text>
         </v-card>
 
         </v-sheet>
@@ -314,6 +375,12 @@
   </v-container>
 </template>
 
-<script setup>
-  //
+<script>
+  export default {
+    data () {
+      return {
+        dialog: false,
+      }
+    },
+  }
 </script>
