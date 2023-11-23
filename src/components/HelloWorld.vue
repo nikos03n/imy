@@ -59,14 +59,32 @@
                 </template>
 
                 <v-card
-                  title="Для тиснення вам необхідно узгодити форму та зробити передонлату 100%"
+                  title="Для індивідуального тиснення фольгою на цьому виробі вам необхідно узгодити:"
                   text=""
+                  imaill="tamazenko@polygraphist.kiev.ua"
                 >
                 <v-card-text>
-                  Для оформлення замовлення необхідно заповнити коротку форму/макет
-                 <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a> та відправити її за адресою <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a>
-
+                1. коротка форма/макет
+                 <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a>
+                 <!-- та відправити її за адресою
+                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a> -->
                  </v-card-text>
+                 <v-card-text>
+                2. можливе “сліпе” тиснення, а також золотим, срібним та білим кольором
+                 </v-card-text>
+                                  <v-card-text>
+                3. допустима кількість символів в 1 рядку залежить від обраного формату блокнота
+                 </v-card-text>
+                                  <v-card-text>
+                4. вартість тиснення від 100 грн
+                 </v-card-text>
+                                                   <v-card-text>
+                4. робота виконується лише після 100% оплати замовлення
+                 </v-card-text>
+
+
+
+
                   <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
 
                 </v-card>
