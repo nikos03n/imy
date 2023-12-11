@@ -257,23 +257,106 @@
       </v-col>
 
       <v-col>
-        <v-sheet class="pa-2 ma-2">
+        <v-sheet class="pa-1 ma-1">
         <v-card
           class="mx-auto"
           max-width="344"
-          hover
           elevation="16"
+          hover
         >
           <v-card-item>
             <v-card-title>
-              Card title11д
+              Записна книжка А5, 128 аркушів, клітинка, обкладинка шт. шкіра синя на кнопці, закрас зрізу блока
             </v-card-title>
             <v-card-subtitle>
-              Card subtitle secondary text
-            </v-card-subtitle>
+              Артикул: 234/2 2252 кнопка           </v-card-subtitle>
           </v-card-item>
 
+          <!-- <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
+                                 <v-container>
+              <v-bottom-sheet>
+                <template v-slot:activator="{ props }">
+                  <v-btn v-bind="props" text="Click Me"></v-btn>
+                </template>
+
+                <v-card
+                  title="Bottom Sheet"
+                  text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eos? Nulla aspernatur odio rem, culpa voluptatibus eius debitis dolorem perspiciatis asperiores sed consectetur praesentium! Delectus et iure maxime eaque exercitationem!"
+                ></v-card>
+              </v-bottom-sheet>
+            </v-container>
+
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </v-card-text> -->
+          <v-card-text>
+                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a" width="300" height="300" />
+
+            Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 352. Блок білий офсет 70г/м2. Колір капталу та лясе - білий. Мова укр., англ. Форзац - кольорові мапи України, Європи. Матеріал обкладинки штучна шкіра. Інформаційний блок містить:-Валюти країн світу-Позначення країн та територій в Інтернеті-Правила догляду за одягом та знаки на етикетці-Розміри одягу та взуття-Одиниці для вимірювання фізичних величин-Офіційні правила тлумачення торгівельних термінів міжнародної торгової палати Інкотермс 2020-Автомобільні коди країни-Часові пояси-Відстані між європейськими містами та між обласними центрами України-Довідкові телефони-Телефонні коди міст України-Міжнародні телефонні коди-Міжнародні штрихові коди
+           </v-card-text>
         </v-card>
+
+          <v-row justify="center">
+            <v-dialog
+              v-model="dialog"
+              width="800"
+            >
+              <template v-slot:activator="{ props }">
+                <v-btn
+                  color="primary"
+                  v-bind="props"
+                >
+                  Замовити цей виріб
+                </v-btn>
+              </template>
+              <v-card>
+                <v-card-title>
+                  <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
+                </v-card-title>
+                <v-card-text color="red">
+                1. заповнити макет
+                 <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a>
+                 та відправити за адресою
+                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a>
+                 </v-card-text>
+                 <v-card-text>
+                2. тиснення можливе безбарвне, золотим, червоним, срібним та білим кольором
+                 </v-card-text>
+                                  <v-card-text>
+                3. допустима кількість символів в 1 рядку залежить від обраного формату блокнота
+                 </v-card-text>
+                                  <v-card-text>
+                4. вартість тиснення від 100 грн + ціна блокнота
+                 </v-card-text>
+                                                   <v-card-text>
+                5. робота виконується лише після 100% оплати замовлення
+                </v-card-text>
+                <v-sheet class="pa-2 ma-2">
+                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a" width="500" height="500" />
+                </v-sheet>
+
+                <v-card-actions>
+                  <v-spacer></v-spacer>
+                  <v-btn
+                    color="green-darken-1"
+                    variant="text"
+                    @click="dialog = false"
+                    href=""
+                  >
+                    Disagree
+                  </v-btn>
+                  <v-btn
+                    color="green-darken-1"
+                    variant="text"
+                    @click="dialog = false"
+                  >
+                    Agree
+                  </v-btn>
+                </v-card-actions>
+              </v-card>
+            </v-dialog>
+          </v-row>
 
         </v-sheet>
       </v-col>
