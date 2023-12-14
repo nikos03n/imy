@@ -54,7 +54,32 @@
                  </v-card-text>
                                   <v-card-text>
                 4. вартість тиснення від 100 грн + ціна блокнота
+
                  </v-card-text>
+
+                 <v-dialog width="500">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="оплата"> </v-btn>
+  </template>
+
+  <template v-slot:default="{ isActive }">
+    <v-card title="Приват банк">
+      <v-card-text>
+        15545454545878788787
+      </v-card-text>
+
+      <v-card-actions>
+        <v-spacer></v-spacer>
+
+        <v-btn
+          text="Close Dialog"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+</v-dialog>
+
                                                    <v-card-text>
                 5. робота виконується лише після 100% оплати замовлення
                 </v-card-text>
@@ -298,7 +323,7 @@
         </v-sheet>
       </v-col>
 
-        <v-col>
+      <v-col>
         <v-sheet class="pa-2 ma-2">
         <v-card
           class="mx-auto"
