@@ -25,23 +25,19 @@
 
             Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 352. Блок кремовий офсет 70г/м2, лінія. Колір капталу та лясе - золотий. Мова укр., англ. Перфоровані відривні кутики. Форзац - кольорові мапи Європи і України. Обкладинка гнучка, штучна шкіра, на гумці.Інформаційний блок містить:-Валюти країн світу-Позначення країн та територій в Інтернеті-Правила догляду за одягом та знаки на етикетці-Розміри одягу та взуття-Одиниці для вимірювання фізичних величин-Офіційні правила тлумачення торгівельних термінів міжнародної торгової палати Інкотермс 2020-Автомобільні коди країни-Часові пояси-Відстані між європейськими містами та між обласними центрами України-Довідкові телефони-Телефонні коди міст України-Міжнародні телефонні коди-Міжнародні штрихові коди.
           </v-card-text>
-        </v-card>
 
-          <v-row justify="center">
-            <v-dialog
-              v-model="dialog"
-              width="800"
-            >
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  color="primary"
-                  v-bind="props"
-                >
-                  Замовити цей виріб
-                </v-btn>
-              </template>
-              <v-card>
-                <v-card-title>
+
+        </v-card>
+         <v-row justify="center" >
+          <v-dialog width="800">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="Open Dialog"> </v-btn>
+  </template>
+
+  <template v-slot:default="{ isActive }">
+    <v-card title="Dialog">
+      <v-card-text>
+        <v-card-title>
                   <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
                 </v-card-title>
                 <v-card-text color="red">
@@ -62,30 +58,26 @@
                                                    <v-card-text>
                 5. робота виконується лише після 100% оплати замовлення
                 </v-card-text>
-                <v-sheet class="pa-2 ma-2">
-                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358" width="500" height="500" />
+                <v-sheet class="left">
+                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358" width="500" height="500">
                 </v-sheet>
+      </v-card-text>
 
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                  >
-                    Disagree
-                  </v-btn>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                  >
-                    Agree
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-dialog>
-          </v-row>
+      <v-card-actions>
+        <v-spacer></v-spacer>
+
+        <v-btn
+          text="Close Dialog"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+          </v-dialog>
+        </v-row>
+
+
+
 
         </v-sheet>
       </v-col>
@@ -178,21 +170,16 @@
            </v-card-text>
         </v-card>
 
-          <v-row justify="center" >
-            <v-dialog
-              v-model="dialog"
-              width="800"
-            >
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  color="primary"
-                  v-bind="props"
-                >
-                  Замовити 241 2110
-                </v-btn>
-              </template>
-              <v-card>
-                <v-card-title>
+        <v-row justify="center" >
+          <v-dialog width="800">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="Open Dialog"> </v-btn>
+  </template>
+
+  <template v-slot:default="{ isActive }">
+    <v-card title="Dialog">
+      <v-card-text>
+        <v-card-title>
                   <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
                 </v-card-title>
                 <v-card-text color="red">
@@ -213,30 +200,25 @@
                                                    <v-card-text>
                 5. робота виконується лише після 100% оплати замовлення
                 </v-card-text>
-                <v-sheet class="pa-2 ma-2">
-                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F241%202110.jpg?alt=media&token=a6c9884a-57ad-4c63-8b92-f323eea861d2" width="500" height="500" />
+                <v-sheet class="left">
+                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F241%202110.jpg?alt=media&token=a6c9884a-57ad-4c63-8b92-f323eea861d2" width="500" height="500">
                 </v-sheet>
+      </v-card-text>
 
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                  >
-                    Disagree
-                  </v-btn>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                  >
-                    Agree
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-dialog>
-          </v-row>
+      <v-card-actions>
+        <v-spacer></v-spacer>
+
+        <v-btn
+          text="Close Dialog"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+          </v-dialog>
+        </v-row>
+
+
 
         </v-sheet>
       </v-col>
@@ -257,24 +239,6 @@
               Артикул: 234/2 2252 кнопка           </v-card-subtitle>
           </v-card-item>
 
-          <!-- <v-card-text>
-                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="200" height="200" />
-                                 <v-container>
-              <v-bottom-sheet>
-                <template v-slot:activator="{ props }">
-                  <v-btn v-bind="props" text="Click Me"></v-btn>
-                </template>
-
-                <v-card
-                  title="Bottom Sheet"
-                  text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eos? Nulla aspernatur odio rem, culpa voluptatibus eius debitis dolorem perspiciatis asperiores sed consectetur praesentium! Delectus et iure maxime eaque exercitationem!"
-                ></v-card>
-              </v-bottom-sheet>
-            </v-container>
-
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </v-card-text> -->
           <v-card-text>
                         <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a" width="300" height="300" />
 
@@ -282,21 +246,16 @@
            </v-card-text>
         </v-card>
 
-          <v-row justify="center">
-            <v-dialog
-              v-model="dialog"
-              width="800"
-            >
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  color="primary"
-                  v-bind="props"
-                >
-                  Замовити цей виріб
-                </v-btn>
-              </template>
-              <v-card>
-                <v-card-title>
+         <v-row justify="center" >
+          <v-dialog width="800">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="Open Dialog"> </v-btn>
+  </template>
+
+  <template v-slot:default="{ isActive }">
+    <v-card title="Dialog">
+      <v-card-text>
+        <v-card-title>
                   <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
                 </v-card-title>
                 <v-card-text color="red">
@@ -317,31 +276,24 @@
                                                    <v-card-text>
                 5. робота виконується лише після 100% оплати замовлення
                 </v-card-text>
-                <v-sheet class="pa-2 ma-2">
-                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a" width="500" height="500" />
+                <v-sheet class="left">
+                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a" width="500" height="500">
                 </v-sheet>
+      </v-card-text>
 
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                    href=""
-                  >
-                    Disagree
-                  </v-btn>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                  >
-                    Agree
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-dialog>
-          </v-row>
+      <v-card-actions>
+        <v-spacer></v-spacer>
+
+        <v-btn
+          text="Close Dialog"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+          </v-dialog>
+        </v-row>
+
 
         </v-sheet>
       </v-col>
@@ -366,7 +318,7 @@
           <v-card-text>
             <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358" width="300" height="300" />
 
-            <v-container align-content-center>
+            <!-- <v-container align-content-center>
               <v-bottom-sheet>
                 <template v-slot:activator="{ props }">
                   <v-btn
@@ -402,64 +354,23 @@
 
                 </v-card>
               </v-bottom-sheet>
-            </v-container>
+            </v-container> -->
 
                         Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 352. Блок кремовий офсет 70г/м2, лінія. Колір капталу та лясе - золотий. Мова укр., англ. Перфоровані відривні кутики. Форзац - кольорові мапи Європи і України. Обкладинка гнучка, штучна шкіра, на гумці.Інформаційний блок містить:-Валюти країн світу-Позначення країн та територій в Інтернеті-Правила догляду за одягом та знаки на етикетці-Розміри одягу та взуття-Одиниці для вимірювання фізичних величин-Офіційні правила тлумачення торгівельних термінів міжнародної торгової палати Інкотермс 2020-Автомобільні коди країни-Часові пояси-Відстані між європейськими містами та між обласними центрами України-Довідкові телефони-Телефонні коди міст України-Міжнародні телефонні коди-Міжнародні штрихові коди.
 
           </v-card-text>
         </v-card>
-        </v-sheet>
-      </v-col>
 
+         <v-row justify="center" >
+          <v-dialog width="800">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="Open Dialog"> </v-btn>
+  </template>
 
-    </v-row>
-
-  </v-container2>
-
-  <v-container2 class="bg-surface-variant">
-    <v-row
-      class="mb-6"
-      no-gutters
-    >
-
-      <v-col>
-        <v-sheet class="pa-1 ma-1">
-        <v-card
-          class="mx-auto"
-          max-width="344"
-          elevation="16"
-          hover
-        >
-          <v-card-item>
-            <v-card-title>
-              Щоденник недатований А5, 176 аркушів, крем.лінія, обкладинка штучна шкіра, бордовий, на гумці
-            </v-card-title>
-            <v-card-subtitle>
-              Артикул: 241/1 06Б           </v-card-subtitle>
-          </v-card-item>
-
-          <v-card-text>
-                        <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358" width="300" height="300" />
-
-            Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 352. Блок кремовий офсет 70г/м2, лінія. Колір капталу та лясе - золотий. Мова укр., англ. Перфоровані відривні кутики. Форзац - кольорові мапи Європи і України. Обкладинка гнучка, штучна шкіра, на гумці.Інформаційний блок містить:-Валюти країн світу-Позначення країн та територій в Інтернеті-Правила догляду за одягом та знаки на етикетці-Розміри одягу та взуття-Одиниці для вимірювання фізичних величин-Офіційні правила тлумачення торгівельних термінів міжнародної торгової палати Інкотермс 2020-Автомобільні коди країни-Часові пояси-Відстані між європейськими містами та між обласними центрами України-Довідкові телефони-Телефонні коди міст України-Міжнародні телефонні коди-Міжнародні штрихові коди.
-           </v-card-text>
-        </v-card>
-
-          <v-row justify="center">
-            <v-dialog
-              v-model="dialog"
-              width="800"
-            >
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  color="primary"
-                  v-bind="props"
-                >
-                  Замовити 241/1 06Б
-                </v-btn>
-              </template>
-              <v-card>
-                <v-card-title>
+  <template v-slot:default="{ isActive }">
+    <v-card title="Dialog">
+      <v-card-text>
+        <v-card-title>
                   <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
                 </v-card-title>
                 <v-card-text color="red">
@@ -480,34 +391,28 @@
                                                    <v-card-text>
                 5. робота виконується лише після 100% оплати замовлення
                 </v-card-text>
-                <v-sheet class="pa-2 ma-2">
-                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358" width="500" height="500" />
+                <v-sheet class="left">
+                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358" width="500" height="500">
                 </v-sheet>
+      </v-card-text>
 
-                <v-card-actions>
-                  <v-spacer></v-spacer>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                    href=""
-                  >
-                    Disagree
-                  </v-btn>
-                  <v-btn
-                    color="green-darken-1"
-                    variant="text"
-                    @click="dialog = false"
-                  >
-                    Agree
-                  </v-btn>
-                </v-card-actions>
-              </v-card>
-            </v-dialog>
-          </v-row>
+      <v-card-actions>
+        <v-spacer></v-spacer>
+
+        <v-btn
+          text="Close Dialog"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+          </v-dialog>
+        </v-row>
+
 
         </v-sheet>
       </v-col>
+
 
     </v-row>
 
@@ -519,74 +424,7 @@
 
 
 
-  <!-- <v-container class="fill-height">
-    <v-responsive class="align-center text-center fill-height">
-      <v-img height="300" src="@/assets/logo.svg" />
 
-      <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
-
-      <h1 class="text-h2 font-weight-bold">Vuetify</h1>
-      <div class="py-14" />
-
-      <v-row class="d-flex align-center justify-center">
-        <v-col cols="auto">
-          <v-btn
-            href="https://vuetifyjs.com/components/all/"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-view-dashboard"
-              size="large"
-              start
-            />
-
-            Components
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            color="primary"
-            href="https://vuetifyjs.com/introduction/why-vuetify/#feature-guides"
-            min-width="228"
-            rel="noopener noreferrer"
-            size="x-large"
-            target="_blank"
-            variant="flat"
-          >
-            <v-icon
-              icon="mdi-speedometer"
-              size="large"
-              start
-            />
-
-            Get Started
-          </v-btn>
-        </v-col>
-
-        <v-col cols="auto">
-          <v-btn
-            href="https://community.vuetifyjs.com/"
-            min-width="164"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="text"
-          >
-            <v-icon
-              icon="mdi-account-group"
-              size="large"
-              start
-            />
-
-            Community
-          </v-btn>
-        </v-col>
-      </v-row>
-    </v-responsive>
-  </v-container> -->
 </template>
 
 <script>
