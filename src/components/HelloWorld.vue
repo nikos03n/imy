@@ -44,7 +44,7 @@
                 1. заповнити макет
                  <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a>
                  та відправити за адресою
-                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a>
+                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a> для узгодження
                  </v-card-text>
                  <v-card-text>
                 2. тиснення можливе безбарвне, золотим, червоним, срібним та білим кольором
@@ -53,7 +53,7 @@
                 3. допустима кількість символів в 1 рядку залежить від обраного формату блокнота
                  </v-card-text>
                                   <v-card-text>
-                4. вартість тиснення від 100 грн + ціна блокнота
+                4. вартість тиснення після узгодження (від 100 грн) + ціна блокнота
 
                  </v-card-text>
 
@@ -67,12 +67,15 @@
       <v-card-text>
         15545454545878788787
       </v-card-text>
+      <v-card-text>
+       у призначенні платежу необхідно вказати фамілію плантника
+      </v-card-text>
 
       <v-card-actions>
         <v-spacer></v-spacer>
 
         <v-btn
-          text="Close Dialog"
+          text="Close"
           @click="isActive.value = false"
         ></v-btn>
       </v-card-actions>
