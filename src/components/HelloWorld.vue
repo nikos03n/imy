@@ -130,48 +130,90 @@
           <v-card-text>
             <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
 
-            <v-container align-content-center>
-              <v-bottom-sheet>
-                <template v-slot:activator="{ props }">
-                  <v-btn
-                  color="primary" v-bind="props" text="Замовити 231 0540"></v-btn>
-                </template>
 
-                <v-card
-                  title="Для індивідуального тиснення фольгою на цьому виробі вам необхідно узгодити:"
-                  text=""
-                  imaill="tamazenko@polygraphist.kiev.ua"
-                >
-                <v-card-text>
+            Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 256. Блок білий офсет 70г/м2, клітинка. Колір капталу та лясе - білий. Мова укр., англ. Форзац - без друку білий. Обкладинка баладек.
+          </v-card-text>
+
+        </v-card>
+         <v-row justify="center" >
+          <v-dialog width="800">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="Open Dialog"> </v-btn>
+  </template>
+
+  <template v-slot:default="{ isActive }">
+    <v-card title="Dialog">
+      <v-card-text>
+        <v-card-title>
+                  <span class="text-h5">Для індивідуального тиснення фольгою вам необхідно:</span>
+                </v-card-title>
+                <v-card-text color="red">
                 1. заповнити макет
                  <a href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171" target="_blank" rel="noopener">Excel</a>
                  та відправити за адресою
-                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a>
+                  <a href="" target="_blank" rel="noopener">tamazenko@polygraphist.kiev.ua</a> для узгодження
                  </v-card-text>
                  <v-card-text>
-                2. тиснення можливе безбарвне, а також золотим, червоним, срібним та білим кольором
+                2. тиснення можливе безбарвне, золотим, червоним, срібним та білим кольором
                  </v-card-text>
                                   <v-card-text>
                 3. допустима кількість символів в 1 рядку залежить від обраного формату блокнота
                  </v-card-text>
                                   <v-card-text>
-                4. вартість тиснення від 100 грн + ціна блокнота
+                4. вартість тиснення після узгодження (від 100 грн) + ціна блокнота
+
                  </v-card-text>
+
+                 <v-dialog width="500">
+  <template v-slot:activator="{ props }">
+    <v-btn color="primary" v-bind="props" text="оплата"> </v-btn>
+  </template>
+
+  <template v-slot:default="{ isActive }">
+    <v-card title="Приват банк">
+      <v-card-text>
+        15545454545878788787
+      </v-card-text>
+      <v-card-text>
+       у призначенні платежу необхідно вказати фамілію плантника
+      </v-card-text>
+
+      <v-card-actions>
+        <v-spacer></v-spacer>
+
+        <v-btn
+          text="Close"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+</v-dialog>
+
                                                    <v-card-text>
                 5. робота виконується лише після 100% оплати замовлення
-                 </v-card-text>
+                </v-card-text>
+                <v-sheet class="left">
+                     <img alt="Vue logo" class="logo mx-auto" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="500" height="500">
+                </v-sheet>
+      </v-card-text>
 
+      <v-card-actions>
+        <v-spacer></v-spacer>
 
-                  <img alt="Vue logo" class="logo" src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F0540_26105_1911_0.jpg?alt=media&token=beb8b885-cb6f-4fac-a1e9-9451af0bca05" width="300" height="300" />
+        <v-btn
+          text="Close Dialog"
+          @click="isActive.value = false"
+        ></v-btn>
+      </v-card-actions>
+    </v-card>
+  </template>
+          </v-dialog>
 
-                </v-card>
-              </v-bottom-sheet>
-            </v-container>
+        </v-row>
 
-            Діловий щоденник недатований. Формат 145х202 мм. Кількість сторінок 256. Блок білий офсет 70г/м2, клітинка. Колір капталу та лясе - білий. Мова укр., англ. Форзац - без друку білий. Обкладинка баладек.
-          </v-card-text>
-        </v-card>
         </v-sheet>
+
       </v-col>
 
       <v-col>
