@@ -399,7 +399,7 @@
                     <v-card-text>
                       4. вартість тиснення після узгодження (від 100 грн) +
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F239%201250%20%D0%A0%D0%BE%D0%BC%D0%B1%D0%B8.jpg?alt=media&token=489603d5-0b32-427a-ae0c-931912e4bd53"
+                        href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/dlov-schodenniki/dlov-schodenniki-nedatovan/schodennik-nedatovaniy-a5-160-arkushv-kltinka-obkladinka-baladek-siny-tisn-rombi/"
                         target="_blank"
                         rel="noopener"
                         color="primary"
@@ -757,7 +757,7 @@
                     <v-card-text>
                       4. вартість тиснення після узгодження (від 100 грн) +
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358"
+                        href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/dlov-schodenniki/dlov-schodenniki-nedatovan/schodennik-nedatovaniy-a5-176-arkushv-krem.lnya-obkladinka-shtuchna-shkra-bordoviy-na-gumc/"
                         target="_blank"
                         rel="noopener"
                         color="primary"
@@ -915,7 +915,7 @@
                     <v-card-text>
                       4. вартість тиснення після узгодження (від 100 грн) +
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a"
+                        href="https://polygraphist.kiev.ua/suvenri-ta-podarunki/zapisn-knizhki/zapisna-knizhka-a5-128-arkushv-kltinka-obkladinka-sht.-shkra-sinya-na-knopc-zakras-zrzu-bloka/"
                         target="_blank"
                         rel="noopener"
                         color="primary"
