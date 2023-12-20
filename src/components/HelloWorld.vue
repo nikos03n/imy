@@ -185,6 +185,7 @@
               Обкладинка баладек.
             </v-card-text>
           </v-card>
+
           <v-row justify="center">
             <v-dialog width="800">
               <template v-slot:activator="{ props }">
@@ -305,6 +306,8 @@
               </template>
             </v-dialog>
           </v-row>
+
+
         </v-sheet>
       </v-col>
 
@@ -335,6 +338,7 @@
             </v-card-text>
           </v-card>
 
+
           <v-row justify="center">
             <v-dialog width="800">
               <template v-slot:activator="{ props }">
@@ -343,7 +347,7 @@
               </template>
 
               <template v-slot:default="{ isActive }">
-                <v-card title="Dialog">
+                <v-card title="">
                   <v-card-text>
                     <v-card-title>
                       <span class="text-h5"
@@ -359,22 +363,79 @@
                         rel="noopener"
                         >Excel</a
                       >
-                      та відправити за адресою
-                      <a href="" target="_blank" rel="noopener"
-                        >tamazenko@polygraphist.kiev.ua</a
-                      >
+                      та відправити для узгодження
+                      <v-dialog width="500">
+                        <template v-slot:activator="{ props }">
+                          <v-btn color="primary" v-bind="props" text="e-mail">
+                          </v-btn>
+                        </template>
+
+                        <template v-slot:default="{ isActive }">
+                          <v-card title="e-mail">
+                            <v-card-text>
+                              tamazenko@polygraphist.kiev.ua
+                            </v-card-text>
+
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+
+                              <v-btn
+                                text="Close"
+                                @click="isActive.value = false"
+                              ></v-btn>
+                            </v-card-actions>
+                          </v-card>
+                        </template>
+                      </v-dialog>
                     </v-card-text>
                     <v-card-text>
-                      2. тиснення можливе безбарвне, золотим, червоним, срібним
-                      та білим кольором
+                      2. тиснення можливе безбарвне, золотим, червоним та
+                      срібним кольором
                     </v-card-text>
                     <v-card-text>
                       3. допустима кількість символів в 1 рядку залежить від
                       обраного формату блокнота
                     </v-card-text>
                     <v-card-text>
-                      4. вартість тиснення від 100 грн + ціна блокнота
+                      4. вартість тиснення після узгодження (від 100 грн) +
+                      <a
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F239%201250%20%D0%A0%D0%BE%D0%BC%D0%B1%D0%B8.jpg?alt=media&token=489603d5-0b32-427a-ae0c-931912e4bd53"
+                        target="_blank"
+                        rel="noopener"
+                        color="primary"
+                        >ціна блокнота</a
+                      >
                     </v-card-text>
+
+                    <v-dialog width="500">
+                      <template v-slot:activator="{ props }">
+                        <v-btn color="primary" v-bind="props" text="оплата">
+                        </v-btn>
+                      </template>
+
+                      <template v-slot:default="{ isActive }">
+                        <v-card title="Приват банк">
+                          <v-card-text> 4149 4993 9266 7117 </v-card-text>
+                          <v-card-text>
+                            1. оплата тільки після узгодження менеджером
+                          </v-card-text>
+                          <v-card-text>
+                            2. у призначенні платежу необхідно вказати фамілію
+                            плантника
+                          </v-card-text>
+
+                          <v-card-actions>
+                            <v-spacer></v-spacer>
+
+                            <v-btn
+                              text="Close"
+                              @click="isActive.value = false"
+                            ></v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </template>
+                    </v-dialog>
+
                     <v-card-text>
                       5. робота виконується лише після 100% оплати замовлення
                     </v-card-text>
@@ -392,15 +453,14 @@
                   <v-card-actions>
                     <v-spacer></v-spacer>
 
-                    <v-btn
-                      text="Close Dialog"
-                      @click="isActive.value = false"
-                    ></v-btn>
+                    <v-btn text="Close" @click="isActive.value = false"></v-btn>
                   </v-card-actions>
                 </v-card>
               </template>
             </v-dialog>
           </v-row>
+
+
         </v-sheet>
       </v-col>
 
@@ -447,7 +507,7 @@
               </template>
 
               <template v-slot:default="{ isActive }">
-                <v-card title="Dialog">
+                <v-card title="">
                   <v-card-text>
                     <v-card-title>
                       <span class="text-h5"
@@ -463,22 +523,79 @@
                         rel="noopener"
                         >Excel</a
                       >
-                      та відправити за адресою
-                      <a href="" target="_blank" rel="noopener"
-                        >tamazenko@polygraphist.kiev.ua</a
-                      >
+                      та відправити для узгодження
+                      <v-dialog width="500">
+                        <template v-slot:activator="{ props }">
+                          <v-btn color="primary" v-bind="props" text="e-mail">
+                          </v-btn>
+                        </template>
+
+                        <template v-slot:default="{ isActive }">
+                          <v-card title="e-mail">
+                            <v-card-text>
+                              tamazenko@polygraphist.kiev.ua
+                            </v-card-text>
+
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+
+                              <v-btn
+                                text="Close"
+                                @click="isActive.value = false"
+                              ></v-btn>
+                            </v-card-actions>
+                          </v-card>
+                        </template>
+                      </v-dialog>
                     </v-card-text>
                     <v-card-text>
-                      2. тиснення можливе безбарвне, золотим, червоним, срібним
-                      та білим кольором
+                      2. тиснення можливе безбарвне, золотим, червоним та
+                      срібним кольором
                     </v-card-text>
                     <v-card-text>
                       3. допустима кількість символів в 1 рядку залежить від
                       обраного формату блокнота
                     </v-card-text>
                     <v-card-text>
-                      4. вартість тиснення від 100 грн + ціна блокнота
+                      4. вартість тиснення після узгодження (від 100 грн) +
+                      <a
+                        href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/dlov-schodenniki/dlov-schodenniki-nedatovan/schodennik-nedatovaniy-a5-176-arkushv-lnya-obkladinka-shtuchna-shkra-chorniy/"
+                        target="_blank"
+                        rel="noopener"
+                        color="primary"
+                        >ціна блокнота</a
+                      >
                     </v-card-text>
+
+                    <v-dialog width="500">
+                      <template v-slot:activator="{ props }">
+                        <v-btn color="primary" v-bind="props" text="оплата">
+                        </v-btn>
+                      </template>
+
+                      <template v-slot:default="{ isActive }">
+                        <v-card title="Приват банк">
+                          <v-card-text> 4149 4993 9266 7117 </v-card-text>
+                          <v-card-text>
+                            1. оплата тільки після узгодження менеджером
+                          </v-card-text>
+                          <v-card-text>
+                            2. у призначенні платежу необхідно вказати фамілію
+                            плантника
+                          </v-card-text>
+
+                          <v-card-actions>
+                            <v-spacer></v-spacer>
+
+                            <v-btn
+                              text="Close"
+                              @click="isActive.value = false"
+                            ></v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </template>
+                    </v-dialog>
+
                     <v-card-text>
                       5. робота виконується лише після 100% оплати замовлення
                     </v-card-text>
@@ -496,15 +613,14 @@
                   <v-card-actions>
                     <v-spacer></v-spacer>
 
-                    <v-btn
-                      text="Close Dialog"
-                      @click="isActive.value = false"
-                    ></v-btn>
+                    <v-btn text="Close" @click="isActive.value = false"></v-btn>
                   </v-card-actions>
                 </v-card>
               </template>
             </v-dialog>
           </v-row>
+
+
         </v-sheet>
       </v-col>
 
@@ -581,7 +697,6 @@
               коди-Міжнародні штрихові коди.
             </v-card-text>
           </v-card>
-
           <v-row justify="center">
             <v-dialog width="800">
               <template v-slot:activator="{ props }">
@@ -590,7 +705,7 @@
               </template>
 
               <template v-slot:default="{ isActive }">
-                <v-card title="Dialog">
+                <v-card title="">
                   <v-card-text>
                     <v-card-title>
                       <span class="text-h5"
@@ -606,22 +721,79 @@
                         rel="noopener"
                         >Excel</a
                       >
-                      та відправити за адресою
-                      <a href="" target="_blank" rel="noopener"
-                        >tamazenko@polygraphist.kiev.ua</a
-                      >
+                      та відправити для узгодження
+                      <v-dialog width="500">
+                        <template v-slot:activator="{ props }">
+                          <v-btn color="primary" v-bind="props" text="e-mail">
+                          </v-btn>
+                        </template>
+
+                        <template v-slot:default="{ isActive }">
+                          <v-card title="e-mail">
+                            <v-card-text>
+                              tamazenko@polygraphist.kiev.ua
+                            </v-card-text>
+
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+
+                              <v-btn
+                                text="Close"
+                                @click="isActive.value = false"
+                              ></v-btn>
+                            </v-card-actions>
+                          </v-card>
+                        </template>
+                      </v-dialog>
                     </v-card-text>
                     <v-card-text>
-                      2. тиснення можливе безбарвне, золотим, червоним, срібним
-                      та білим кольором
+                      2. тиснення можливе безбарвне, золотим, червоним та
+                      срібним кольором
                     </v-card-text>
                     <v-card-text>
                       3. допустима кількість символів в 1 рядку залежить від
                       обраного формату блокнота
                     </v-card-text>
                     <v-card-text>
-                      4. вартість тиснення від 100 грн + ціна блокнота
+                      4. вартість тиснення після узгодження (від 100 грн) +
+                      <a
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358"
+                        target="_blank"
+                        rel="noopener"
+                        color="primary"
+                        >ціна блокнота</a
+                      >
                     </v-card-text>
+
+                    <v-dialog width="500">
+                      <template v-slot:activator="{ props }">
+                        <v-btn color="primary" v-bind="props" text="оплата">
+                        </v-btn>
+                      </template>
+
+                      <template v-slot:default="{ isActive }">
+                        <v-card title="Приват банк">
+                          <v-card-text> 4149 4993 9266 7117 </v-card-text>
+                          <v-card-text>
+                            1. оплата тільки після узгодження менеджером
+                          </v-card-text>
+                          <v-card-text>
+                            2. у призначенні платежу необхідно вказати фамілію
+                            плантника
+                          </v-card-text>
+
+                          <v-card-actions>
+                            <v-spacer></v-spacer>
+
+                            <v-btn
+                              text="Close"
+                              @click="isActive.value = false"
+                            ></v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </template>
+                    </v-dialog>
+
                     <v-card-text>
                       5. робота виконується лише після 100% оплати замовлення
                     </v-card-text>
@@ -639,15 +811,13 @@
                   <v-card-actions>
                     <v-spacer></v-spacer>
 
-                    <v-btn
-                      text="Close Dialog"
-                      @click="isActive.value = false"
-                    ></v-btn>
+                    <v-btn text="Close" @click="isActive.value = false"></v-btn>
                   </v-card-actions>
                 </v-card>
               </template>
             </v-dialog>
           </v-row>
+
         </v-sheet>
       </v-col>
 
@@ -685,7 +855,6 @@
               телефонні коди-Міжнародні штрихові коди
             </v-card-text>
           </v-card>
-
           <v-row justify="center">
             <v-dialog width="800">
               <template v-slot:activator="{ props }">
@@ -694,7 +863,7 @@
               </template>
 
               <template v-slot:default="{ isActive }">
-                <v-card title="Dialog">
+                <v-card title="">
                   <v-card-text>
                     <v-card-title>
                       <span class="text-h5"
@@ -710,22 +879,79 @@
                         rel="noopener"
                         >Excel</a
                       >
-                      та відправити за адресою
-                      <a href="" target="_blank" rel="noopener"
-                        >tamazenko@polygraphist.kiev.ua</a
-                      >
+                      та відправити для узгодження
+                      <v-dialog width="500">
+                        <template v-slot:activator="{ props }">
+                          <v-btn color="primary" v-bind="props" text="e-mail">
+                          </v-btn>
+                        </template>
+
+                        <template v-slot:default="{ isActive }">
+                          <v-card title="e-mail">
+                            <v-card-text>
+                              tamazenko@polygraphist.kiev.ua
+                            </v-card-text>
+
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+
+                              <v-btn
+                                text="Close"
+                                @click="isActive.value = false"
+                              ></v-btn>
+                            </v-card-actions>
+                          </v-card>
+                        </template>
+                      </v-dialog>
                     </v-card-text>
                     <v-card-text>
-                      2. тиснення можливе безбарвне, золотим, червоним, срібним
-                      та білим кольором
+                      2. тиснення можливе безбарвне, золотим, червоним та
+                      срібним кольором
                     </v-card-text>
                     <v-card-text>
                       3. допустима кількість символів в 1 рядку залежить від
                       обраного формату блокнота
                     </v-card-text>
                     <v-card-text>
-                      4. вартість тиснення від 100 грн + ціна блокнота
+                      4. вартість тиснення після узгодження (від 100 грн) +
+                      <a
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F234%202252%20%D0%BA%D0%BD%D0%BE%D0%BF%D0%BA%D0%B0.jpg?alt=media&token=a23c4bc1-675f-4996-9857-29d518d5a33a"
+                        target="_blank"
+                        rel="noopener"
+                        color="primary"
+                        >ціна блокнота</a
+                      >
                     </v-card-text>
+
+                    <v-dialog width="500">
+                      <template v-slot:activator="{ props }">
+                        <v-btn color="primary" v-bind="props" text="оплата">
+                        </v-btn>
+                      </template>
+
+                      <template v-slot:default="{ isActive }">
+                        <v-card title="Приват банк">
+                          <v-card-text> 4149 4993 9266 7117 </v-card-text>
+                          <v-card-text>
+                            1. оплата тільки після узгодження менеджером
+                          </v-card-text>
+                          <v-card-text>
+                            2. у призначенні платежу необхідно вказати фамілію
+                            плантника
+                          </v-card-text>
+
+                          <v-card-actions>
+                            <v-spacer></v-spacer>
+
+                            <v-btn
+                              text="Close"
+                              @click="isActive.value = false"
+                            ></v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </template>
+                    </v-dialog>
+
                     <v-card-text>
                       5. робота виконується лише після 100% оплати замовлення
                     </v-card-text>
@@ -743,15 +969,14 @@
                   <v-card-actions>
                     <v-spacer></v-spacer>
 
-                    <v-btn
-                      text="Close Dialog"
-                      @click="isActive.value = false"
-                    ></v-btn>
+                    <v-btn text="Close" @click="isActive.value = false"></v-btn>
                   </v-card-actions>
                 </v-card>
               </template>
             </v-dialog>
           </v-row>
+
+
         </v-sheet>
       </v-col>
 
