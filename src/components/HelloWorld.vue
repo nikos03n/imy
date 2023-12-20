@@ -755,7 +755,7 @@
         </v-sheet>
       </v-col>
 
-        <v-col>
+      <v-col>
         <v-sheet class="pa-2 ma-2">
           <v-card class="mx-auto" max-width="344" hover elevation="16">
             <v-card-item>
@@ -797,7 +797,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F2401D2140.jpg?alt=media&token=09bc6428-673b-4275-82f1-fb262351c714"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -882,7 +882,7 @@
                       <img
                         alt="Vue logo"
                         class="logo mx-auto"
-                        src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358"
+                        src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F2401D2140.jpg?alt=media&token=09bc6428-673b-4275-82f1-fb262351c714"
                         width="500"
                         height="500"
                       />
