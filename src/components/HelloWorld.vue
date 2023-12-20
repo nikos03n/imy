@@ -754,6 +754,153 @@
           </v-row>
         </v-sheet>
       </v-col>
+
+        <v-col>
+        <v-sheet class="pa-2 ma-2">
+          <v-card class="mx-auto" max-width="344" hover elevation="16">
+            <v-card-item>
+              <v-card-title>
+                Щоденник датований А5, 176 аркушів, крем.лінія, обкладинка штучна шкіра Nebraska, зелений
+              </v-card-title>
+              <v-card-subtitle> Артикул: 240/1-D-2140 </v-card-subtitle>
+            </v-card-item>
+
+            <v-card-text
+              ><img
+                alt="Vue logo"
+                class="logo"
+                src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F2401D2140.jpg?alt=media&token=09bc6428-673b-4275-82f1-fb262351c714"
+                width="300"
+                height="300"
+              />
+
+              Діловий щоденник датований. Формат 145х202 мм. Кількість сторінок 352. Блок кремовий офсет 70г/м2. Колір капталу та лясе - золото. Мова укр., англ. Форзац - кольорові мапи України, Європи. Матеріал обкладинки штучна шкіра. Інформаційний блок містить:-Валюти країн світу-Позначення країн та територій в Інтернеті-Правила догляду за одягом та знаки на етикетці-Розміри одягу та взуття-Одиниці для вимірювання фізичних величин-Офіційні правила тлумачення торгівельних термінів міжнародної торгової палати Інкотермс 2020-Автомобільні коди країни-Часові пояси-Відстані між європейськими містами та між обласними центрами України-Довідкові телефони-Телефонні коди міст України-Міжнародні телефонні коди-Міжнародні штрихові коди.
+
+            </v-card-text>
+          </v-card>
+          <v-row justify="center">
+            <v-dialog width="800">
+              <template v-slot:activator="{ props }">
+                <v-btn color="primary" v-bind="props" text="Open Dialog">
+                </v-btn>
+              </template>
+
+              <template v-slot:default="{ isActive }">
+                <v-card title="">
+                  <v-card-text>
+                    <v-card-title>
+                      <span class="text-h5"
+                        >Для індивідуального тиснення фольгою вам
+                        необхідно:</span
+                      >
+                    </v-card-title>
+                    <v-card-text color="red">
+                      1. заповнити макет
+                      <a
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F2401D2140.jpg?alt=media&token=09bc6428-673b-4275-82f1-fb262351c714"
+                        target="_blank"
+                        rel="noopener"
+                        >Excel</a
+                      >
+                      та відправити для узгодження
+                      <v-dialog width="500">
+                        <template v-slot:activator="{ props }">
+                          <v-btn color="primary" v-bind="props" text="e-mail">
+                          </v-btn>
+                        </template>
+
+                        <template v-slot:default="{ isActive }">
+                          <v-card title="e-mail">
+                            <v-card-text>
+                              tamazenko@polygraphist.kiev.ua
+                            </v-card-text>
+
+                            <v-card-actions>
+                              <v-spacer></v-spacer>
+
+                              <v-btn
+                                text="Close"
+                                @click="isActive.value = false"
+                              ></v-btn>
+                            </v-card-actions>
+                          </v-card>
+                        </template>
+                      </v-dialog>
+                    </v-card-text>
+                    <v-card-text>
+                      2. тиснення можливе безбарвне, золотим, червоним та
+                      срібним кольором
+                    </v-card-text>
+                    <v-card-text>
+                      3. допустима кількість символів в 1 рядку залежить від
+                      обраного формату блокнота
+                    </v-card-text>
+                    <v-card-text>
+                      4. вартість тиснення після узгодження (від 100 грн) +
+                      <a
+                        href="https://polygraphist.kiev.ua/dlya-bznesu-ta-ofsu/dlov-schodenniki/dlov-schodenniki-datovan-2024/schodennik-datovaniy-a5-176-arkushv-krem.lnya-obkladinka-shtuchna-shkra-nebraska-zeleniy/"
+                        target="_blank"
+                        rel="noopener"
+                        color="primary"
+                        >ціна блокнота</a
+                      >
+                    </v-card-text>
+
+                    <v-dialog width="500">
+                      <template v-slot:activator="{ props }">
+                        <v-btn color="primary" v-bind="props" text="оплата">
+                        </v-btn>
+                      </template>
+
+                      <template v-slot:default="{ isActive }">
+                        <v-card title="Приват банк">
+                          <v-card-text> 4149 4993 9266 7117 </v-card-text>
+                          <v-card-text>
+                            1. оплата тільки після узгодження менеджером
+                          </v-card-text>
+                          <v-card-text>
+                            2. у призначенні платежу необхідно вказати фамілію
+                            плантника
+                          </v-card-text>
+
+                          <v-card-actions>
+                            <v-spacer></v-spacer>
+
+                            <v-btn
+                              text="Close"
+                              @click="isActive.value = false"
+                            ></v-btn>
+                          </v-card-actions>
+                        </v-card>
+                      </template>
+                    </v-dialog>
+
+                    <v-card-text>
+                      5. робота виконується лише після 100% оплати замовлення
+                    </v-card-text>
+                    <v-sheet class="left">
+                      <img
+                        alt="Vue logo"
+                        class="logo mx-auto"
+                        src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F06B_5209_1974_0.jpg?alt=media&token=6be7226f-0667-48a8-bb31-347eaf73c358"
+                        width="500"
+                        height="500"
+                      />
+                    </v-sheet>
+                  </v-card-text>
+
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+
+                    <v-btn text="Close" @click="isActive.value = false"></v-btn>
+                  </v-card-actions>
+                </v-card>
+              </template>
+            </v-dialog>
+          </v-row>
+        </v-sheet>
+      </v-col>
+
     </v-row>
   </v-container2>
 </template>
