@@ -55,7 +55,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -205,7 +205,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -358,7 +358,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -518,7 +518,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -716,7 +716,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -874,7 +874,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
@@ -1022,7 +1022,7 @@
                     <v-card-text color="red">
                       1. заповнити макет
                       <a
-                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0firebase.xlsx?alt=media&token=63c3e144-60e8-4691-b2ae-b48646990171"
+                        href="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2Fprodaj8.xlsx?alt=media&token=528e293a-6207-4186-b4f7-99c4b0c9e55b"
                         target="_blank"
                         rel="noopener"
                         >Excel</a
