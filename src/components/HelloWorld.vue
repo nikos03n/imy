@@ -479,7 +479,7 @@
               <img
                 alt="Vue logo"
                 class="logo"
-                src="https://polygraphist.kiev.ua/images/detailed/8482/2110_5210_s_b_1964_0.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/cborka.appspot.com/o/foto%2F2110_5210_s_b_1964_0.jpg?alt=media&token=bc0713ef-a11a-4b0f-a5db-71ff78047c7b"
                 width="300"
                 height="300"
               />
